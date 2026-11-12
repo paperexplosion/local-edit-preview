@@ -889,3 +889,9 @@ header.site{background:#2f4547;border-bottom:1px solid #213436}
 .v2 .kbtn.line b,.v2 .kbtn.line small{color:#0F1111!important}
 .v2 .kbtn.line,.v2 .kon .kbtn.line,.v2 .kon .kcta .kbtn.line,.v2 .vh .kbtn.line,.v2 .vh .vh-sec--cta .kbtn.line,.v2 .vh .vh-sec--last .kbtn.line{background:#FFD814!important;border:2px solid #D9A800!important;color:#0F1111!important;box-shadow:0 2px 0 #C79500,0 4px 10px rgba(30,20,8,.18)!important}
 .v2 .kbtn.line:hover{background:#F7CA00!important}
+
+/* ---- LINEボタンは LINE の緑 ---- */
+.v2 .kbtn.line,.v2 .kon .kbtn.line,.v2 .kon .kcta .kbtn.line,.v2 .vh .kbtn.line,.v2 .vh .vh-sec--cta .kbtn.line,.v2 .vh .vh-sec--last .kbtn.line,.v2 a.btn[href*="lin.ee"]:not(.off):not(:disabled):not(.zz),.v2 a.btn.o[href*="lin.ee"]:not(.off):not(:disabled){
+ background:#06C755!important;color:#fff!important;border:2px solid #05A647!important;border-style:solid!important;box-shadow:0 2px 0 #048A3A,0 4px 10px rgba(30,20,8,.18)!important}
+.v2 .kbtn.line:hover,.v2 a.btn[href*="lin.ee"]:not(.off):not(:disabled):not(.zz):hover{background:#05B34C!important;color:#fff!important}
+.v2 .kbtn.line b,.v2 .kbtn.line small,.v2 .kbtn.line .ki{color:#fff!important;stroke:#fff}
