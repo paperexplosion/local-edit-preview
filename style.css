@@ -946,3 +946,18 @@ header.site{background:#2f4547;border-bottom:1px solid #213436}
  .v2 .ctasec .contact .btns{display:grid;grid-template-columns:1fr;gap:10px}
  .v2 .ctasec .contact .btns .btn{display:flex;align-items:center;justify-content:center;min-height:54px;width:100%;box-sizing:border-box}
 }
+
+/* ---- スマホ：宣言文の写真を詰める ---- */
+@media(max-width:700px){
+ .v2 .motifband{padding:30px 0 36px}
+ .v2 .motifband>.w{gap:26px}
+ .v2 .mfig2{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:10px;width:100%;max-width:none;aspect-ratio:auto;align-items:start;padding:6px 2px 0}
+ .v2 .mfig2 .mp{position:relative;left:auto;right:auto;top:auto;width:100%;padding:4px;box-shadow:0 8px 16px rgba(30,20,8,.24),0 1px 3px rgba(30,20,8,.18)}
+ .v2 .mfig2 .mp1{order:1;transform:rotate(-2.4deg)!important}
+ .v2 .mfig2 .mp2{order:2;transform:rotate(1.2deg)!important;margin-top:8px}
+ .v2 .mfig2 .mp3{order:3;transform:rotate(2.6deg)!important}
+ .v2 .mfig2 .mp::after{width:44px;height:12px;top:-7px;margin-left:-22px}
+ .v2 .mfig2 .mimg img{aspect-ratio:4/5;object-fit:cover}
+ .v2 .motifband .core{font-size:clamp(1.35rem,6.2vw,1.75rem);line-height:2.0}
+ .v2 .motifband .echo{font-size:.92rem;line-height:2.0}
+}
