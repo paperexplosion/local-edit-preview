@@ -895,3 +895,54 @@ header.site{background:#2f4547;border-bottom:1px solid #213436}
  background:#06C755!important;color:#fff!important;border:2px solid #05A647!important;border-style:solid!important;box-shadow:0 2px 0 #048A3A,0 4px 10px rgba(30,20,8,.18)!important}
 .v2 .kbtn.line:hover,.v2 a.btn[href*="lin.ee"]:not(.off):not(:disabled):not(.zz):hover{background:#05B34C!important;color:#fff!important}
 .v2 .kbtn.line b,.v2 .kbtn.line small,.v2 .kbtn.line .ki{color:#fff!important;stroke:#fff}
+
+/* ---- スマホ：使いやすさ（700px以下だけ）---- */
+.mbar{display:none}
+@media(max-width:700px){
+ body{padding-bottom:84px}
+ .logo img{height:40px;width:auto}
+ .mbar{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:8px 10px calc(8px + env(safe-area-inset-bottom));background:rgba(251,248,239,.97);border-top:1px solid #d8d0bb;box-shadow:0 -4px 14px rgba(30,20,8,.14)}
+ .mbar a{display:flex;align-items:center;justify-content:center;min-height:54px;border-radius:12px;font-weight:800;font-size:1.05rem;text-decoration:none;border:2px solid;line-height:1.2;text-align:center}
+ .mbar .mb-tel{background:#FFD814;color:#0F1111;border-color:#D9A800;box-shadow:0 2px 0 #C79500}
+ .mbar .mb-line{background:#06C755;color:#fff;border-color:#05A647;box-shadow:0 2px 0 #048A3A}
+ .mbar .mb-form{background:#fff;color:#2f4547;border-color:#2f4547}
+ /* トップ：最初の画面に、屋号・ひとこと・ボタンが見えるように */
+ .v2 .hbg{display:none}
+ .v2 .heroflex{display:flex;flex-direction:column;padding-block:18px 36px}
+ .v2 .herotx{transform:none!important;will-change:auto!important;display:flex;flex-direction:column;padding-right:0}
+ .v2 .herotx .hstamp{display:none}
+ .v2 .herotx .lab{order:1}.v2 .herotx h1{order:2}.v2 .herotx .en{order:3}.v2 .herotx .one{order:4}.v2 .herotx .contact{order:5}.v2 .herotx .lead{order:6}
+ .v2 .herotx>*{animation:none}
+ .v2 .hero,.v2 .hero.photo{overflow:visible;padding-top:0!important;min-height:0!important}
+ .v2 .hero.photo::before{display:none}
+ .v2 .herowall .pin{transform:rotate(var(--r,0deg))!important}
+ .v2 .herotx .one{font-size:1.18rem;margin:10px 0 14px}
+ .v2 .herotx .contact{margin:0 0 18px}
+ .v2 .herotx .contact .tel{margin:0 0 6px}
+ .v2 .herotx .contact .tel a{display:block;text-align:center;background:#FFD814;color:#0F1111!important;border:2px solid #D9A800;border-radius:14px;padding:14px 10px;font-size:1.75rem;box-shadow:0 2px 0 #C79500,0 4px 10px rgba(30,20,8,.16)}
+ .v2 .herotx .contact .tel small{text-align:center;margin-top:8px}
+ .v2 .herotx .contact .btns{display:grid;grid-template-columns:1fr;gap:10px;margin-top:10px}
+ .v2 .herotx .contact .btns .btn{display:flex;align-items:center;justify-content:center;min-height:54px;font-size:1.12rem;width:100%;box-sizing:border-box}
+ .v2 .herotx .contact .btns .btn.off{display:none}
+ .v2 .herowall{order:2;margin:6px 0 10px;background:url(img/slots/index-hero-bg.jpg) 56% 38%/cover;border-radius:14px;aspect-ratio:1/1}
+ .v2 .herowall .pinnote{color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.7);bottom:1%}
+ /* 細い画面：ロゴとメニューが重ならないように */
+}
+@media(max-width:440px){
+ .logo img{height:33px}
+ .menu-btn{padding:9px 12px!important;font-size:.9rem!important;letter-spacing:0!important}
+}
+@media(max-width:340px){
+ .logo img{height:26px}
+ .menu-btn{padding:8px 9px!important;font-size:.82rem!important}
+}
+@media(max-width:700px){
+ /* パンくず・小見出しが1文字ずつ折り返さないように */
+ .v2 p.lab{display:block;line-height:1.9}
+ .v2 p.lab::before{display:inline-block;vertical-align:middle;margin-right:12px}
+ .v2 p.lab a{white-space:nowrap}
+ /* 「まず、聞いてみてください。」帯のボタンを押しやすく */
+ .v2 .ctasec .contact .tel a{display:block;text-align:center;background:#FFD814;color:#0F1111!important;border:2px solid #D9A800;border-radius:14px;padding:12px 10px;font-size:1.7rem}
+ .v2 .ctasec .contact .btns{display:grid;grid-template-columns:1fr;gap:10px}
+ .v2 .ctasec .contact .btns .btn{display:flex;align-items:center;justify-content:center;min-height:54px;width:100%;box-sizing:border-box}
+}
