@@ -961,3 +961,16 @@ header.site{background:#2f4547;border-bottom:1px solid #213436}
  .v2 .motifband .core{font-size:clamp(1.35rem,6.2vw,1.75rem);line-height:2.0}
  .v2 .motifband .echo{font-size:.92rem;line-height:2.0}
 }
+
+/* ---- スマホ：縦の余白を詰める ---- */
+@media(max-width:700px){
+ .v2 main section:not(.hero):not(.motifband),.v2 section.soft,.v2 .ichiryu,.v2 .scenes,.v2 .unneisha,.v2 .ctasec,.v2 .keitora{padding-top:34px!important;padding-bottom:36px!important}
+ .v2 .unneisha{padding-bottom:48px!important}
+ .v2 #scenes,.v2 section.scenes{padding-bottom:64px!important}
+ .v2 .bandwrap{margin-bottom:46px!important}
+ .v2 .bandbg{min-height:0!important;height:170px!important}
+ .v2 section h2{margin-top:6px}
+ .v2 section .sub{margin-bottom:14px}
+ .v2 #jobs{padding-top:0}
+ .v2 .three>div{padding-top:18px;padding-bottom:6px}
+}
