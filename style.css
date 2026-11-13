@@ -1068,3 +1068,7 @@ header.site .gnav a.cta-link.cta-link{font-family:'Zen Maru Gothic','Zen Kaku Go
  .v2 .herotx::before{content:"";position:absolute;top:-96px;right:8px;width:118px;height:118px;border-radius:50%;border:3px solid rgba(47,69,71,.4);z-index:3;opacity:0;animation:inkring 1.1s .95s ease-out both;pointer-events:none}
  @media(prefers-reduced-motion:reduce){.v2 .herotx .hstamp{animation:none;opacity:.96;transform:rotate(-9deg)}.v2 .herotx::before{display:none}}
 }
+
+/* ---- 中見出し（家の再生）---- */
+.stairs .h3sub{margin:-4px 0 2px;font-size:.78rem;font-weight:700;letter-spacing:.18em;color:var(--acc2,#8a6a1f)}
+.stairs .h3sub::before{content:"— ";opacity:.7}
