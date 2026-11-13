@@ -1255,3 +1255,14 @@ header.site .pl-sub b{font-family:var(--head);font-weight:800;font-size:1.06em;l
 .yadoband .yb-fig{width:min(100%,380px);margin:4px auto 22px}
 .yadoband .yb-fig img{border-radius:18px;box-shadow:none;mix-blend-mode:multiply;opacity:.92;filter:saturate(.85) contrast(.96);
  -webkit-mask-image:radial-gradient(ellipse 72% 70% at 50% 50%,#000 58%,transparent 100%);mask-image:radial-gradient(ellipse 72% 70% at 50% 50%,#000 58%,transparent 100%)}
+
+/* ---- 屋号の彫り込み板 ---- */
+.v2 .nameplate{display:block;width:fit-content;max-width:100%;box-sizing:border-box;margin:18px 0 10px;padding:18px 30px 16px;border-radius:20px;
+ background:linear-gradient(180deg,#f1ecdf 0%,#f6f2e8 100%);
+ box-shadow:inset 0 3px 6px rgba(80,62,28,.20),inset 0 1px 2px rgba(80,62,28,.18),inset 0 -1px 0 rgba(255,255,255,.95),0 1px 0 rgba(255,255,255,.95),0 2px 3px rgba(80,62,28,.08)}
+.v2 .nameplate h1{margin:0}
+.v2 .nameplate .en{margin:4px 0 0}
+@media(max-width:700px){
+ .v2 .herotx .nameplate{order:2;padding:12px 14px 10px;border-radius:16px;margin:4px 0 4px}
+ .v2 .herotx .nameplate h1,.v2 .herotx .nameplate .en{order:0}
+}
