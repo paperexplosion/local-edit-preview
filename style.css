@@ -1090,3 +1090,15 @@ header.site .gnav a.cta-link.cta-link{font-family:'Zen Maru Gothic','Zen Kaku Go
 
 /* ---- 縦書き宣言文：1行ずつ現れる ---- */
 .cl{display:block;clip-path:inset(0 0 calc((1 - var(--q,1))*100%) 0);opacity:calc(.15 + var(--q,1)*.85)}
+
+/* ---- スマホ：フッター ---- */
+@media(max-width:700px){
+ footer{padding:34px 0 120px;font-size:1rem;border-top:1px solid #ded7c3}
+ footer .fband{display:block;width:min(100%,330px);height:auto;margin:0 0 18px}
+ footer p{margin:0 0 12px;line-height:1.95;font-size:1.02rem}
+ footer p b{display:block;font-size:1.08rem;line-height:1.7;margin-bottom:2px}
+ footer a[href^="tel"]{display:inline-block;font-weight:800;font-size:1.15rem;padding:2px 2px;border-bottom:2px solid #d19a3b;text-decoration:none}
+ .fs{display:none}
+ footer .ft-a{display:block;margin:0 0 6px}
+ footer p:last-child .ft-a:last-child{margin-top:10px;color:#6b6455;font-size:.92rem}
+}
