@@ -1034,3 +1034,22 @@ header.site .gnav a.cta-link.cta-link{font-family:'Zen Maru Gothic','Zen Kaku Go
  .hmk.on.d1{transition-delay:.08s}
  @media(prefers-reduced-motion:reduce){.hmk{background-size:100% .5em;transition:none}}
 }
+
+/* ---- スマホ：4段の絵の箸休め ---- */
+.stp{display:none}
+@media(max-width:700px){
+ .v2 .stairs{gap:26px;position:relative}
+ .v2 .stairs>div{position:relative;overflow:visible;border-radius:16px;padding:18px 18px 20px!important;box-shadow:0 8px 20px rgba(30,20,8,.08)}
+ .v2 .stairs .k{display:inline-block;align-self:flex-start;background:#FFD21E;color:#2b2210;font-family:'Zen Maru Gothic','Zen Kaku Gothic New',sans-serif;font-weight:900;font-size:.95rem;letter-spacing:.08em;padding:5px 16px 6px;border-radius:999px;transform:rotate(-3deg);box-shadow:0 3px 8px rgba(196,146,0,.3);margin:-32px 0 2px -4px}
+ .v2 .stairs>div:nth-child(even) .k{transform:rotate(2.5deg);align-self:flex-end;margin-right:-4px}
+ .v2 .stp{display:block;margin:6px 0 4px;background:#fbf8ef;padding:6px;box-shadow:0 10px 20px rgba(30,20,8,.2),0 1px 3px rgba(30,20,8,.14);position:relative;transform:rotate(-1.8deg) translateX(-22px);opacity:0;transition:transform .7s cubic-bezier(.2,.9,.2,1),opacity .6s ease;width:88%}
+ .v2 .stp::after{content:"";position:absolute;top:-9px;left:50%;width:62px;height:16px;margin-left:-31px;background:rgba(236,208,150,.85);transform:rotate(-3deg)}
+ .v2 .stp img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+ .v2 .stairs>div:nth-child(even) .stp{align-self:flex-end;transform:rotate(2deg) translateX(22px)}
+ .v2 .stp.on{opacity:1;transform:rotate(-1.8deg) translateX(0)}
+ .v2 .stairs>div:nth-child(even) .stp.on{transform:rotate(2deg) translateX(0)}
+ .v2 .stairs>div:nth-child(4) .stp img{aspect-ratio:3/2}
+ /* 段のあいだに、手描きの点線の道すじ */
+ .v2 .stairs>div:not(:last-child)::after{content:"";position:absolute;left:50%;bottom:-24px;width:0;height:22px;border-left:3px dotted #d19a3b;transform:translateX(-50%)}
+ @media(prefers-reduced-motion:reduce){.v2 .stp{opacity:1;transform:rotate(-1.8deg);transition:none}}
+}
