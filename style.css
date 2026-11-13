@@ -1248,3 +1248,10 @@ header.site .pl-sub b{font-family:var(--head);font-weight:800;font-size:1.06em;l
 /* ---- 宿の帯の絵 ---- */
 .yadoband .yb-fig{margin:6px 0 22px;padding:0}
 .yadoband .yb-fig img{display:block;width:100%;height:auto;border-radius:6px;box-shadow:0 10px 24px rgba(30,20,8,.22)}
+
+/* ---- さりげない立体・宿の絵を小さく ---- */
+.v2 .hero h1,.v2 .hero .en{text-shadow:0 1px 0 rgba(255,255,255,.95),0 2px 0 rgba(150,132,96,.22),0 4px 7px rgba(90,70,30,.10)}
+.v2 .hero .en{text-shadow:0 1px 0 rgba(255,255,255,.95),0 2px 0 rgba(150,132,96,.2),0 3px 5px rgba(90,70,30,.08)}
+.yadoband .yb-fig{width:min(100%,380px);margin:4px auto 22px}
+.yadoband .yb-fig img{border-radius:18px;box-shadow:none;mix-blend-mode:multiply;opacity:.92;filter:saturate(.85) contrast(.96);
+ -webkit-mask-image:radial-gradient(ellipse 72% 70% at 50% 50%,#000 58%,transparent 100%);mask-image:radial-gradient(ellipse 72% 70% at 50% 50%,#000 58%,transparent 100%)}
