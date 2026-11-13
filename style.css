@@ -1188,3 +1188,7 @@ body.v2 .k,body.v2 .lab{letter-spacing:.06em;font-weight:700}
 body.v2 .herotx .contact{margin-bottom:1.5rem!important}
 body.v2 .herotx .btns{margin-bottom:.4rem!important}
 }
+
+/* ---- 結びの3行 ---- */
+.v2 .motifband .echo{font-size:22px!important;font-weight:700!important;color:#2a2824!important;line-height:2.1!important;letter-spacing:.06em}
+@media(max-width:700px){.v2 .motifband .echo{font-size:19.5px!important;line-height:2.05!important;letter-spacing:.04em;text-wrap:balance}.v2 .motifband .echo br{display:none}}
