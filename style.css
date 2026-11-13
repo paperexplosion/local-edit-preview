@@ -1283,7 +1283,15 @@ header.site .pl-sub b{font-family:var(--head);font-weight:800;font-size:1.06em;l
  .qa{padding:16px 16px 12px;border-radius:14px}
  .qa-q b{font-size:1.02rem}
  .qa-m{width:36px;height:36px;font-size:1.15rem}
- .qa-a p{font-size:1.28rem;line-height:1.6}
+ .qa-a p{font-size:1.12rem;line-height:1.7;text-wrap:pretty}
  .qa-br{display:none}
  .qa-three span{font-size:1.1rem}
 }
+
+/* ---- 読ませる文は丸ゴシック ---- */
+:root{--body:"Zen Maru Gothic","Zen Kaku Gothic New",sans-serif}
+body.v2,.v2 p,.v2 li,.v2 td,.v2 th,.v2 dd,.v2 summary,.v2 small,.v2 .lab,.v2 .k,.v2 .me,.v2 .we,.v2 .sub,.v2 .lead,.v2 .note,.v2 .motif,.v2 .echo,.v2 .rd-goal,.v2 .rd-base,.v2 .qa-q b,.v2 .qa-a p,.v2 .qa-three span,.v2 .vision,.v2 .go{font-family:"Zen Maru Gothic","Zen Kaku Gothic New",sans-serif}
+.v2 .vision b{font-family:var(--head)}
+.v2 .one,.v2 .core{font-family:var(--head)}
+.v2 .qa-a p{font-weight:700}
+.v2 main p:not(.en):not(.one):not(.lab){font-family:"Zen Maru Gothic","Zen Kaku Gothic New",sans-serif!important}
