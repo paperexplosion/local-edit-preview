@@ -1116,3 +1116,8 @@ header.site .gnav a.cta-link.cta-link{font-family:'Zen Maru Gothic','Zen Kaku Go
 /* ---- 3つの仕事・冒頭 ---- */
 .jobs-lead{font-family:var(--head);font-weight:800;font-size:1.25rem;line-height:1.8;margin:0 0 22px;text-wrap:balance}
 @media(max-width:700px){.jobs-lead{font-size:1.2rem}}
+
+/* ---- 3つの仕事・アイコン ---- */
+#jobs .jhead{display:flex;align-items:center;gap:14px;margin-bottom:10px}
+#jobs .three .n,.v2 #jobs .three .n{display:inline-flex!important;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:#2f4547;color:#fbf8ef;font-family:var(--head);font-weight:800;font-size:1.05rem;line-height:1;flex:none}
+#jobs .ji{width:84px;height:84px;flex:none}
