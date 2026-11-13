@@ -1011,3 +1011,7 @@ body.v2 .menu-btn{border-radius:999px!important;font-family:'Zen Maru Gothic','Z
  body.v2 .herotx .contact .tel a{border:0!important;border-radius:999px!important;background:linear-gradient(180deg,#FFE55C,#FFD21E)!important;box-shadow:0 1px 0 rgba(255,255,255,.7) inset,0 7px 16px rgba(196,146,0,.30)!important;font-family:'Zen Maru Gothic','Zen Kaku Gothic New',sans-serif!important;font-weight:900!important}
  body.v2 .ctasec .contact .tel a{border:0!important;border-radius:999px!important;background:linear-gradient(180deg,#FFE55C,#FFD21E)!important;box-shadow:0 1px 0 rgba(255,255,255,.7) inset,0 7px 16px rgba(196,146,0,.30)!important;font-family:'Zen Maru Gothic','Zen Kaku Gothic New',sans-serif!important;font-weight:900!important}
 }
+
+/* ---- 共通ヘッダー：相談するボタン（宿ページ含む）---- */
+header.site .gnav a.cta-link.cta-link{font-family:'Zen Maru Gothic','Zen Kaku Gothic New',sans-serif!important;font-weight:700!important;border:0!important;border-radius:999px!important;padding:9px 24px!important;
+ background:linear-gradient(180deg,#FFE55C 0%,#FFD21E 100%)!important;color:#2b2210!important;box-shadow:0 1px 0 rgba(255,255,255,.7) inset,0 7px 16px rgba(196,146,0,.30)!important}
