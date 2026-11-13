@@ -1074,3 +1074,9 @@ header.site .gnav a.cta-link.cta-link{font-family:'Zen Maru Gothic','Zen Kaku Go
 /* ---- 中見出し（家の再生）---- */
 .stairs .h3sub{margin:-4px 0 2px;font-size:.78rem;font-weight:700;letter-spacing:.18em;color:var(--acc2,#8a6a1f)}
 .stairs .h3sub::before{content:"— ";opacity:.7}
+
+/* ---- 入口の仕事カード：アイコン ---- */
+.card .ci{flex:none;width:56px;height:56px;align-self:center}
+.card .ct{flex:1;min-width:0}
+.card{align-items:center!important;gap:16px!important}
+@media(max-width:700px){.card .ci{width:50px;height:50px}.card{gap:12px!important}}
