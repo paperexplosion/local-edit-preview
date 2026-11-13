@@ -1147,10 +1147,11 @@ body.v2 .k,body.v2 .lab{letter-spacing:.06em;font-weight:700}
 .rd-goal{margin:22px 0 0;padding:24px 20px;border-radius:14px;background:#2f4547;color:#fbf8ef;text-align:center;font-family:var(--head);font-size:1.3rem;line-height:1.9}
 .rd-goal b{color:#fbd44a;font-size:1.5rem;border-bottom:3px solid #fbd44a}
 .rd-br{display:none}
+.rd-goal small{display:block;margin-top:12px;font-family:inherit;font-size:1rem;line-height:1.9;color:#e8e1cc;letter-spacing:.03em}
 @media(max-width:700px){
 .rd-row{flex-direction:column}
 .rd-box{padding:24px 20px 22px}
 .rd-arr{flex:0 0 38px}
 .rd-arr::before{transform:rotate(135deg)}
-.rd-goal{font-size:1.2rem}.rd-goal b{font-size:1.4rem}.rd-br{display:inline}
+.rd-goal{font-size:1.15rem;padding:24px 12px}.rd-goal b{font-size:1.25rem}.rd-br{display:inline}
 }
