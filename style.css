@@ -1105,6 +1105,7 @@ header.site .gnav a.cta-link.cta-link{font-family:'Zen Maru Gothic','Zen Kaku Go
 
 /* ---- 入口リスト ---- */
 .dlist{display:grid;grid-template-columns:1fr;gap:0}
+#doors .sub{text-wrap:balance}
 .v2 .dlist .door,.dlist .door{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 4px;border:0;border-top:1px solid var(--ink,#2f4547);background:transparent;text-decoration:none;color:inherit}
 .dlist .door:last-child{border-bottom:1px solid var(--ink,#2f4547)}
 .dlist .door,.dlist .door b,body .dlist .door b{text-align:left!important}
