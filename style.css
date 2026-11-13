@@ -1266,3 +1266,24 @@ header.site .pl-sub b{font-family:var(--head);font-weight:800;font-size:1.06em;l
  .v2 .herotx .nameplate{order:2;padding:12px 14px 10px;border-radius:16px;margin:4px 0 4px}
  .v2 .herotx .nameplate h1,.v2 .herotx .nameplate .en{order:0}
 }
+
+/* ---- 3つの仕事：Q&A見出し ---- */
+.qa{margin:0 0 6px;padding:20px 24px 14px;background:#fff;border-radius:16px;border:1px solid #e4ded0;box-shadow:0 2px 0 #ece6d6}
+.qa-q,.qa-a{display:flex;align-items:flex-start;gap:14px}
+.qa-q{padding-bottom:12px;border-bottom:1px dashed #cfc6ae;margin-bottom:14px;align-items:center}
+.qa-q b{font-family:var(--head);font-weight:700;font-size:1.15rem;color:#4a473d;letter-spacing:.04em}
+.qa-m{flex:none;display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#2f4547;color:#fbf8ef;font-family:var(--head);font-weight:800;font-size:1.3rem;line-height:1}
+.qa-m.a{background:#d19a3b;color:#2a2214}
+.qa-a p{margin:0;font-family:var(--head);font-weight:800;font-size:1.5rem;line-height:1.65;color:#1f1d19;letter-spacing:.04em;text-wrap:balance}
+.qa-three{margin:16px 0 0;text-align:center;line-height:1.4}
+.qa-three span{display:inline-block;font-family:var(--head);font-weight:800;font-size:1.2rem;color:#2f4547;padding:0 6px 3px;border-bottom:3px solid #FFD21E}
+.qa-three::after{content:"";display:block;width:0;height:0;margin:8px auto 0;border-left:9px solid transparent;border-right:9px solid transparent;border-top:11px solid #d19a3b}
+#jobs .three,.v2 #jobs .three{padding-top:2px!important}
+@media(max-width:700px){
+ .qa{padding:16px 16px 12px;border-radius:14px}
+ .qa-q b{font-size:1.02rem}
+ .qa-m{width:36px;height:36px;font-size:1.15rem}
+ .qa-a p{font-size:1.28rem;line-height:1.6}
+ .qa-br{display:none}
+ .qa-three span{font-size:1.1rem}
+}
