@@ -1259,7 +1259,7 @@ header.site .pl-sub b{font-family:var(--head);font-weight:800;font-size:1.06em;l
 /* ---- 屋号の彫り込み板 ---- */
 .v2 .nameplate{display:block;width:fit-content;max-width:100%;box-sizing:border-box;margin:18px 0 10px;padding:18px 30px 16px;border-radius:20px;
  background:linear-gradient(180deg,#ffffff 0%,#ffffff 62%,#f6f6f6 100%);
- box-shadow:inset 0 1px 0 #fff,inset 0 -2px 0 rgba(0,0,0,.05),0 2px 0 #e4e4e4,0 4px 0 #cfcfcf,0 3px 5px rgba(0,0,0,.05),0 6px 9px rgba(0,0,0,.02)}
+ box-shadow:inset 0 1px 0 #fff,inset 0 -2px 0 rgba(0,0,0,.05),0 2px 0 #e4e4e4,0 4px 0 #cfcfcf,0 2px 3px rgba(0,0,0,.03)}
 .v2 .nameplate h1{margin:0;color:#1d1d1d;text-shadow:0 -1px 0 rgba(0,0,0,.38),0 1px 0 #fff}
 .v2 .nameplate .en{margin:4px 0 0;color:#262626;text-shadow:0 -1px 0 rgba(0,0,0,.3),0 1px 0 #fff}
 @media(max-width:700px){
