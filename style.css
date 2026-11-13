@@ -1147,6 +1147,8 @@ body.v2 .k,body.v2 .lab{letter-spacing:.06em;font-weight:700}
 .rd-goal{margin:22px 0 0;padding:24px 20px;border-radius:14px;background:#2f4547;color:#fbf8ef;text-align:center;font-family:var(--head);font-size:1.3rem;line-height:1.9}
 .rd-goal b{color:#fbd44a;font-size:1.5rem;border-bottom:3px solid #fbd44a}
 .rd-br{display:none}
+.rd-base small{display:block;margin-bottom:6px;font-size:.95rem;letter-spacing:.1em;color:#8a6a1f;font-weight:700}
+.rd-base{line-height:1.8;font-size:1.05rem;text-wrap:balance}
 .rd-goal small{display:block;margin-top:12px;font-family:inherit;font-size:1rem;line-height:1.9;color:#e8e1cc;letter-spacing:.03em}
 @media(max-width:700px){
 .rd-row{flex-direction:column}
