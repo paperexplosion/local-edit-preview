@@ -1087,3 +1087,6 @@ header.site .gnav a.cta-link.cta-link{font-family:'Zen Maru Gothic','Zen Kaku Go
  header.site .w{padding-top:6px;padding-bottom:6px;flex-wrap:nowrap!important;gap:8px!important}
  header.site .logo{min-width:0;flex:0 1 auto}
 }
+
+/* ---- 縦書き宣言文：1行ずつ現れる ---- */
+.cl{display:block;clip-path:inset(0 0 calc((1 - var(--q,1))*100%) 0);opacity:calc(.15 + var(--q,1)*.85)}
