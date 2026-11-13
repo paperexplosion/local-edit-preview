@@ -974,3 +974,40 @@ header.site{background:#2f4547;border-bottom:1px solid #213436}
  .v2 #jobs{padding-top:0}
  .v2 .three>div{padding-top:18px;padding-bottom:6px}
 }
+
+/* ---- ボタン：やわらかい角丸 ---- */
+body.v2 .btn.btn.btn:not(.off):not(:disabled),body.v2 a.kbtn.kbtn.kbtn,body.v2 .gnav a.cta-link.cta-link,body.v2 .sf-submit.sf-submit:not(:disabled){
+ font-family:'Zen Maru Gothic','Zen Kaku Gothic New',sans-serif!important;font-weight:700!important;letter-spacing:.05em;
+ border:0!important;border-radius:999px!important;
+ background:linear-gradient(180deg,#FFE55C 0%,#FFD21E 100%)!important;color:#2b2210!important;
+ box-shadow:0 1px 0 rgba(255,255,255,.7) inset,0 7px 16px rgba(196,146,0,.30)!important;
+ transition:transform .18s ease,box-shadow .18s ease,filter .18s ease}
+body.v2 .btn.btn.btn:not(.off):not(:disabled){padding:.78em 1.9em}
+body.v2 a.kbtn.kbtn.kbtn{border-radius:34px!important;padding:14px 30px 14px 24px}
+body.v2 .gnav a.cta-link.cta-link{padding:9px 24px!important}
+body.v2 .btn.btn.btn:not(.off):not(:disabled):hover,body.v2 a.kbtn.kbtn.kbtn:hover,body.v2 .gnav a.cta-link.cta-link:hover,body.v2 .sf-submit.sf-submit:not(:disabled):hover{
+ transform:translateY(-2px);filter:brightness(1.03);background:linear-gradient(180deg,#FFE55C 0%,#FFD21E 100%)!important;color:#2b2210!important;box-shadow:0 1px 0 rgba(255,255,255,.7) inset,0 11px 22px rgba(196,146,0,.38)!important}
+body.v2 .btn.btn.btn:not(.off):not(:disabled):active,body.v2 a.kbtn.kbtn.kbtn:active{transform:translateY(0);box-shadow:0 3px 8px rgba(196,146,0,.3)!important}
+body.v2 a.kbtn.kbtn.kbtn b,body.v2 a.kbtn.kbtn.kbtn small{color:#2b2210!important;font-family:'Zen Maru Gothic','Zen Kaku Gothic New',sans-serif!important;font-weight:700!important}
+body.v2 a.kbtn.kbtn.kbtn.tel b{font-weight:900!important}
+body.v2 a.kbtn.kbtn.kbtn .ki{stroke:#2b2210}
+/* LINE：LINEの緑のまま、同じやわらかさ */
+body.v2 a.kbtn.kbtn.kbtn.line,body.v2 a.btn.btn.btn[href*="lin.ee"]:not(.off):not(:disabled){
+ background:linear-gradient(180deg,#25DA73 0%,#06C755 100%)!important;color:#fff!important;
+ box-shadow:0 1px 0 rgba(255,255,255,.45) inset,0 7px 16px rgba(6,160,72,.32)!important}
+body.v2 a.kbtn.kbtn.kbtn.line b,body.v2 a.kbtn.kbtn.kbtn.line small,body.v2 a.kbtn.kbtn.kbtn.line .ki{color:#fff!important;stroke:#fff}
+body.v2 a.kbtn.kbtn.kbtn.line:hover,body.v2 a.btn.btn.btn[href*="lin.ee"]:not(.off):not(:disabled):hover{background:linear-gradient(180deg,#25DA73 0%,#06C755 100%)!important;color:#fff!important;box-shadow:0 1px 0 rgba(255,255,255,.45) inset,0 11px 22px rgba(6,160,72,.4)!important}
+/* 押せない状態・メニューボタン */
+body.v2 .btn.off{border-radius:999px!important;font-family:'Zen Maru Gothic','Zen Kaku Gothic New',sans-serif;font-weight:700}
+body.v2 .menu-btn{border-radius:999px!important;font-family:'Zen Maru Gothic','Zen Kaku Gothic New',sans-serif;font-weight:700}
+/* スマホの下の固定バー */
+@media(max-width:700px){
+ body.v2 .mbar{border-radius:22px 22px 0 0;background:rgba(255,252,244,.97)}
+ body.v2 .mbar a{border:0!important;border-radius:999px!important;font-family:'Zen Maru Gothic','Zen Kaku Gothic New',sans-serif!important;font-weight:700!important;box-shadow:0 5px 12px rgba(40,30,10,.18)!important}
+ body.v2 .mbar .mb-tel{background:linear-gradient(180deg,#FFE55C,#FFD21E)!important;color:#2b2210!important}
+ body.v2 .mbar .mb-line{background:linear-gradient(180deg,#25DA73,#06C755)!important;color:#fff!important}
+ body.v2 .mbar .mb-form{background:#fff!important;color:#2f4547!important;box-shadow:0 0 0 2px #2f4547 inset,0 5px 12px rgba(40,30,10,.12)!important}
+ body.v2 a.kbtn.kbtn.kbtn{border-radius:30px!important}
+ body.v2 .herotx .contact .tel a{border:0!important;border-radius:999px!important;background:linear-gradient(180deg,#FFE55C,#FFD21E)!important;box-shadow:0 1px 0 rgba(255,255,255,.7) inset,0 7px 16px rgba(196,146,0,.30)!important;font-family:'Zen Maru Gothic','Zen Kaku Gothic New',sans-serif!important;font-weight:900!important}
+ body.v2 .ctasec .contact .tel a{border:0!important;border-radius:999px!important;background:linear-gradient(180deg,#FFE55C,#FFD21E)!important;box-shadow:0 1px 0 rgba(255,255,255,.7) inset,0 7px 16px rgba(196,146,0,.30)!important;font-family:'Zen Maru Gothic','Zen Kaku Gothic New',sans-serif!important;font-weight:900!important}
+}
