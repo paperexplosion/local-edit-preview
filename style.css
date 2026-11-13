@@ -1157,3 +1157,10 @@ body.v2 .k,body.v2 .lab{letter-spacing:.06em;font-weight:700}
 .rd-arr::before{transform:rotate(135deg)}
 .rd-goal{font-size:1.15rem;padding:24px 12px}.rd-goal b{font-size:1.25rem}.rd-br{display:inline}
 }
+
+/* ---- 宿とガレージへの導線 ---- */
+.yadoband{margin:34px 0 0;padding:28px 26px;border-top:3px solid #2f4547;border-bottom:1px solid #2f4547;background:#f7f1de}
+.yadoband .lab{margin:0 0 6px}
+.yadoband h3{font-family:var(--head);font-size:1.5rem;line-height:1.5;margin:0 0 10px;color:#2a2824}
+.yadoband p:not(.lab){margin:0 0 18px;line-height:1.95;color:#33302a}
+@media(max-width:700px){.yadoband{padding:24px 18px}.yadoband h3{font-size:1.4rem}.yadoband .btn{display:block;text-align:center}}
