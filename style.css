@@ -1164,3 +1164,9 @@ body.v2 .k,body.v2 .lab{letter-spacing:.06em;font-weight:700}
 .yadoband h3{font-family:var(--head);font-size:1.5rem;line-height:1.5;margin:0 0 10px;color:#2a2824}
 .yadoband p:not(.lab){margin:0 0 18px;line-height:1.95;color:#33302a}
 @media(max-width:700px){.yadoband{padding:24px 18px}.yadoband h3{font-size:1.4rem}.yadoband .btn{display:block;text-align:center}}
+
+/* ---- 人間図鑑への導線 ---- */
+.ningenband{margin:30px 0 0;padding:24px 26px;border-left:4px solid #d19a3b;background:#fff}
+.ningenband h3{font-family:var(--head);font-size:1.35rem;line-height:1.5;margin:0 0 8px;color:#2a2824}
+.ningenband p{margin:0 0 16px;line-height:1.95;color:#33302a}
+@media(max-width:700px){.ningenband{padding:22px 18px}.ningenband .btn{display:block;text-align:center}}
