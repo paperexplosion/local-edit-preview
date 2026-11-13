@@ -1199,3 +1199,52 @@ body.v2 .contact .tel a .tl{display:block;font-size:.5em;line-height:1.3;letter-
 body.v2 .contact .tel a{display:inline-block!important;text-align:center;border:0!important;border-radius:999px!important;background:linear-gradient(180deg,#FFE55C,#FFD21E)!important;color:#0F1111!important;box-shadow:0 1px 0 rgba(255,255,255,.7) inset,0 7px 16px rgba(196,146,0,.30)!important;padding:12px 40px 14px!important;font-size:1.9rem!important;line-height:1.3}
 body.v2 .contact .tel small{display:block;margin-top:8px}
 }
+
+/* ---- 屋号の立体札・街の見守り ---- */
+header.site .logo.plaque{display:inline-block;position:relative;margin:0 auto 6px 0;padding:10px 22px 9px;line-height:1.25;text-align:center;text-decoration:none;color:#2f4547;
+ background:linear-gradient(180deg,#fffefb 0%,#f8f3e6 55%,#efe8d4 100%);border-radius:7px;
+ box-shadow:inset 0 1px 0 #fff,inset 0 -2px 0 rgba(120,100,60,.14),0 2px 0 #ddd4bb,0 4px 0 #c9bfa2,0 6px 0 #ada37f,0 13px 18px rgba(0,0,0,.5);
+ transition:transform .15s,box-shadow .15s}
+header.site .logo.plaque::before{content:"";position:absolute;inset:4px;border:1px solid rgba(47,69,71,.22);border-radius:4px;pointer-events:none}
+header.site .logo.plaque:hover{transform:translateY(1px);box-shadow:inset 0 1px 0 #fff,inset 0 -2px 0 rgba(120,100,60,.14),0 1px 0 #ddd4bb,0 3px 0 #c9bfa2,0 5px 0 #ada37f,0 10px 14px rgba(0,0,0,.5)}
+header.site .pl-main{display:block;font-family:'Shippori Mincho B1','Hiragino Mincho ProN',serif;font-weight:800;font-size:1.5rem;letter-spacing:.06em;white-space:nowrap}
+header.site .pl-sub{display:block;margin-top:3px;font-size:.84rem;letter-spacing:.04em;color:#6b5114;white-space:nowrap}
+header.site .pl-sub b{font-family:var(--head);font-weight:800;font-size:1.06em;letter-spacing:.16em;color:#8a6a1f;margin-right:.3em}
+@media(max-width:900px){header.site .pl-main{font-size:1.3rem}}
+@media(max-width:700px){
+ header.site .logo.plaque{flex:0 1 auto;min-width:0;max-width:calc(100vw - 128px);padding:8px 12px 7px;margin-bottom:5px}
+ header.site .pl-main{font-size:clamp(14px,4.7vw,19.5px);letter-spacing:.03em}
+ header.site .pl-sub{font-size:clamp(10.5px,3.2vw,12.5px);letter-spacing:0}
+ header.site .w{padding-bottom:9px!important}
+}
+.mimamori{position:relative;margin:34px 0 0;padding:22px 26px 20px;border:2px dashed #8a7a55;border-radius:14px;background:#fbf7ea}
+.mimamori .mm-tag{position:absolute;top:-14px;left:20px;padding:3px 14px;background:#2f4547;color:#fbf8ef;font-weight:700;font-size:.9rem;letter-spacing:.08em;line-height:1.6;border-radius:999px}
+.mimamori h3{font-family:var(--head);font-size:1.3rem;line-height:1.5;margin:6px 0 8px;color:#2a2824}
+.mimamori p{margin:0 0 12px;line-height:1.95;color:#33302a;text-wrap:pretty}
+.mimamori p:last-child{margin-bottom:0}
+@media(max-width:700px){.mimamori{padding:22px 18px 18px;margin-top:30px}.mimamori h3{font-size:1.2rem}}
+
+/* ---- 階段の段差を小さく ---- */
+@media(min-width:901px){
+.v2 .stairs{align-items:start!important}
+.v2 .stairs>div{min-height:0!important}
+.v2 .stairs>div:nth-child(1){margin-top:132px}
+.v2 .stairs>div:nth-child(2){margin-top:88px}
+.v2 .stairs>div:nth-child(3){margin-top:44px}
+.v2 .stairs>div:nth-child(4){margin-top:0}
+}
+
+/* ---- 中間幅の写真3枚 ---- */
+@media(min-width:701px) and (max-width:1100px){
+ .v2 .motifband>.w{gap:34px!important}
+ .v2 .mfig2{position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;width:min(100%,680px);aspect-ratio:auto;align-items:start;padding:8px 2px 0}
+ .v2 .mfig2 .mp{position:relative;left:auto;right:auto;top:auto;width:100%;padding:6px}
+ .v2 .mfig2 .mp1{order:1;transform:rotate(-2.4deg)!important}
+ .v2 .mfig2 .mp2{order:2;transform:rotate(1.2deg)!important;margin-top:12px}
+ .v2 .mfig2 .mp3{order:3;transform:rotate(2.6deg)!important}
+ .v2 .mfig2 .mimg img{aspect-ratio:4/5;object-fit:cover}
+}
+
+/* ---- 宿の帯の絵 ---- */
+.yadoband .yb-fig{margin:6px 0 22px;padding:0}
+.yadoband .yb-fig img{display:block;width:100%;height:auto;border-radius:6px;box-shadow:0 10px 24px rgba(30,20,8,.22)}
