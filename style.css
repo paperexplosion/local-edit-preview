@@ -1121,3 +1121,13 @@ header.site .gnav a.cta-link.cta-link{font-family:'Zen Maru Gothic','Zen Kaku Go
 #jobs .jhead{display:flex;align-items:center;gap:14px;margin-bottom:10px}
 #jobs .three .n,.v2 #jobs .three .n{display:inline-flex!important;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:#2f4547;color:#fbf8ef;font-family:var(--head);font-weight:800;font-size:1.05rem;line-height:1;flex:none}
 #jobs .ji{width:84px;height:84px;flex:none}
+
+/* ---- スマホ：読みやすさ（高齢の方向け） ---- */
+@media(max-width:700px){
+body.v2 p,body.v2 li,body.v2 td,body.v2 dd,body.v2 summary{line-height:1.95;letter-spacing:.035em;font-weight:500}
+body.v2 .lead,body.v2 .sub,body.v2 .note,body.v2 .me,body.v2 .we,body.v2 .vh-p,body.v2 .vh-lead{color:#33302a;line-height:2;letter-spacing:.04em;font-weight:500}
+body.v2 p.lead{font-size:18.5px;text-wrap:pretty}
+body.v2 p.lead br{display:none}
+body.v2 th{font-size:15.5px;line-height:1.7}
+body.v2 .k,body.v2 .lab{letter-spacing:.06em;font-weight:700}
+}
