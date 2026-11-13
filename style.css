@@ -1132,3 +1132,25 @@ body.v2 p.lead br{display:none}
 body.v2 th{font-size:15.5px;line-height:1.7}
 body.v2 .k,body.v2 .lab{letter-spacing:.06em;font-weight:700}
 }
+
+/* ---- レスキューの流れ図 ---- */
+.rdgm{margin:34px 0 0}
+.rd-row{display:flex;align-items:stretch;gap:0}
+.rd-box{flex:1 1 0;position:relative;background:#fff;border:2px solid #2f4547;border-radius:14px;padding:20px 20px 22px}
+.rd-n{position:absolute;top:-16px;left:16px;width:32px;height:32px;border-radius:50%;background:#2f4547;color:#fbf8ef;display:flex;align-items:center;justify-content:center;font-weight:800;font-family:var(--head)}
+.rd-box h3{margin:4px 0 4px;font-size:1.05rem;color:#8a6a1f;letter-spacing:.08em}
+.rd-box b{display:block;font-family:var(--head);font-size:1.25rem;line-height:1.5;margin-bottom:8px;color:#2a2824}
+.rd-box p{margin:0;font-size:1rem;line-height:1.85;color:#33302a}
+.rd-arr{flex:0 0 40px;display:flex;align-items:center;justify-content:center}
+.rd-arr::before{content:"";width:14px;height:14px;border-top:4px solid #d19a3b;border-right:4px solid #d19a3b;transform:rotate(45deg)}
+.rd-base{margin:22px 0 0;padding:14px 18px;border:2px dashed #2f4547;border-radius:12px;text-align:center;font-weight:700;color:#2a2824;background:#f7f1de}
+.rd-goal{margin:22px 0 0;padding:24px 20px;border-radius:14px;background:#2f4547;color:#fbf8ef;text-align:center;font-family:var(--head);font-size:1.3rem;line-height:1.9}
+.rd-goal b{color:#fbd44a;font-size:1.5rem;border-bottom:3px solid #fbd44a}
+.rd-br{display:none}
+@media(max-width:700px){
+.rd-row{flex-direction:column}
+.rd-box{padding:24px 20px 22px}
+.rd-arr{flex:0 0 38px}
+.rd-arr::before{transform:rotate(135deg)}
+.rd-goal{font-size:1.2rem}.rd-goal b{font-size:1.4rem}.rd-br{display:inline}
+}
